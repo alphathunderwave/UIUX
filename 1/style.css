@@ -1,0 +1,26 @@
+.content {
+    display: flex;   
+}
+
+.dashboard {
+    float: left;
+    width: 15%;
+    background-color: aliceblue;
+}
+
+.user {
+    padding: 40px;
+    display: grid;
+}
+
+.nav {
+    display: grid;
+}
+
+.workspace {
+    display: flex;
+}
+
+.projects {
+}
+
