@@ -6,7 +6,6 @@ body {
   padding: 0;
   font-family: "Roboto", sans-serif;
 }
-
 .dashboard {
   position: relative;
   z-index: 1;
@@ -28,9 +27,8 @@ body {
 .material-symbols-outlined {
   padding: 10px;
 }
-.material-symbols-outlined:hover{
-    transform: scale(1.1);
-
+.material-symbols-outlined:hover {
+  transform: scale(1.1);
 }
 .nav {
   position: relative;
@@ -46,7 +44,6 @@ body {
     "search name "
     "header buttons";
 }
-
 .search {
   grid-column: 1;
   grid-row: 1;
@@ -101,7 +98,7 @@ body {
   border: 0px;
 }
 .b:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 .workspace {
   background-color: rgb(216, 216, 216);
@@ -110,7 +107,6 @@ body {
   z-index: 0;
   display: flex;
 }
-
 .plist {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -150,18 +146,17 @@ body {
   justify-content: right;
 }
 h2:hover {
-    display: flex;
-    justify-content: left;
-    transform: scale(1.01);
-    text-decoration: underline;
+  display: flex;
+  justify-content: left;
+  transform: scale(1.01);
+  text-decoration: underline;
 }
-h3:hover{
-    display: flex;
-    justify-content: left;
-    transform: scale(1.01);
-    text-decoration: underline;
-
+h3:hover {
+  display: flex;
+  justify-content: left;
+  transform: scale(1.01);
+  text-decoration: underline;
 }
 .mat {
-    font-size: 60px !important;
+  font-size: 60px !important;
 }
