@@ -4,6 +4,8 @@ import home from "./home.js";
 import menu from "./menu.js";
 import hours from "./hours.js";
 
-home();
-menu();
-hours();
+const content = document.querySelector(".content")
+
+home(content);
+menu(content);
+hours(content);
