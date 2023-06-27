@@ -1,0 +1,1 @@
+(()=>{"use strict";fetch("https://api.weatherapi.com/v1/current.json?key=7ceb099a71f946b196c145012232706&q=buffalo",{mode:"cors"}).then((function(e){return e.json()})).then((function(e){console.log(e.current.feelslike_f)})).catch((function(e){console.log(e)}))})();
